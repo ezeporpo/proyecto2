@@ -83,16 +83,13 @@ body{
 }
 .container-personajes{
     margin-left: 50px;
-    margin-right: 50px;
 }
 
 .img-personajes{
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    height: 220px;
+    height: 205px;
     float: right;
+    margin-right: 50px;
+
 }
 .container-personajes h2{
     display: block;
@@ -206,6 +203,12 @@ footer .grupo2{
     }
     .secciones{
         font-size: 17px;
+    }
+    .img-personajes{
+        
+    }
+    .container-personajes{
+       
     }
 }
 
