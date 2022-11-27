@@ -1,0 +1,28 @@
+//*inicio*//
+body{
+    background-color: $colorbody;
+}
+//*personajes*//
+.card-box{
+    margin: 25px;
+    width: 22rem;
+    display: inline-block;
+    align-items: center;
+    .card-img{
+        border: 5px;
+        width: 21rem;
+    }
+    .card{
+        font-size: 15px;
+        width: 21rem;
+        
+    }
+    .card-title{
+        text-align: center;
+
+    }
+    .card-text{
+        padding: 5px;
+    }
+    
+}
