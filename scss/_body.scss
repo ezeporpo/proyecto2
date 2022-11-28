@@ -7,7 +7,6 @@ body{
     margin: 15px;
     width: 22rem;
     display: inline-block;
-    
     .card-img{
         border: 5px;
         width: 21rem;
@@ -15,11 +14,9 @@ body{
     .card{
         font-size: 15px;
         width: 21rem;
-        
     }
     .card-title{
         text-align: center;
-
     }
     .card-text{
         padding: 5px;
@@ -32,3 +29,31 @@ body{
     margin-left: 50px;
     padding-top: 30px;
 }
+
+//*peliculas*//
+#entradapeli{
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    .textopeli{
+        display: flex;
+        font-size: 18px;
+        margin: 5px 15px 15px 15px;
+    }
+    .imgpeli{
+        width: 350px;
+        padding-top: 20px;
+        display: flex;
+    }
+    .subtitulopeli{
+        padding-top: 25px;
+        font-size: 35px;
+        margin-left: 15px;
+    }        
+}
+
