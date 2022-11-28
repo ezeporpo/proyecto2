@@ -4,10 +4,10 @@ body{
 }
 //*personajes*//
 .card-box{
-    margin: 25px;
+    margin: 15px;
     width: 22rem;
     display: inline-block;
-    align-items: center;
+    
     .card-img{
         border: 5px;
         width: 21rem;
@@ -24,5 +24,11 @@ body{
     .card-text{
         padding: 5px;
     }
-    
+}
+
+//*premios*//
+#premios{
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 30px;
 }
